@@ -1,0 +1,33 @@
+[debug] [2024-05-15T11:33:15.780Z] : 
+[debug] [2024-05-15T11:33:15.782Z] : ----------------------------------------------------------------------
+[debug] [2024-05-15T11:33:15.782Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-05-15T11:33:15.783Z] : CLI Version:  1.17.5
+[debug] [2024-05-15T11:33:15.783Z] : Platform:     win32
+[debug] [2024-05-15T11:33:15.783Z] : Node Version: v21.5.0
+[debug] [2024-05-15T11:33:15.783Z] : Time:         Wed May 15 2024 17:03:15 GMT+0530 (India Standard Time)
+[debug] [2024-05-15T11:33:15.783Z] : ----------------------------------------------------------------------
+[debug] [2024-05-15T11:33:15.783Z] : 
+[debug] [2024-05-15T11:33:16.590Z] : > authorizing via signed-in user option
+[debug] [2024-05-15T11:33:16.590Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-05-15T11:33:16.603Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/20661000000018001 
+
+[debug] [2024-05-15T11:33:17.559Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 15 May 2024 11:33:16 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=1d8d26c9-c559-4fef-b10d-f35f8d9f152e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1d8d26c9-c559-4fef-b10d-f35f8d9f152e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-15T11:33:17.563Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/20661000000018001/environment 
+
+[debug] [2024-05-15T11:33:17.853Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 15 May 2024 11:33:16 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=2f6acef9-74fb-4465-b0ed-0412d96f978f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=2f6acef9-74fb-4465-b0ed-0412d96f978f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-15T11:33:18.032Z] : Build folder already exists, starting cleanup
+[debug] [2024-05-15T11:33:18.067Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/20661000000018001/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-05-15T11:33:18.368Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 15 May 2024 11:33:17 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=b0cd757e-b839-4fc9-b4df-165b38215fbe;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b0cd757e-b839-4fc9-b4df-165b38215fbe;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-15T11:33:18.372Z] : unknown eol undefined hence skipping check
+[info] [2024-05-15T11:33:19.001Z] : 
+[info] [2024-05-15T11:33:19.002Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-05-15T11:33:19.002Z] : i new_recipe_app_function: http://localhost:3000/server/new_recipe_app_function/
+[info] [2024-05-15T11:33:19.003Z] : 
