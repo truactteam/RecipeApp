@@ -1,0 +1,11 @@
+{
+	"name": "new_recipe_app_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "user1@demo9.truact.in",
+	"dependencies": {
+		"axios": "^1.6.8",
+		"express": "^4.19.2",
+		"zcatalyst-sdk-node": "latest"
+	}
+}

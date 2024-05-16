@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "targets": [
+      "new_recipe_app_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "recipeapp",
+    "plugin": "zcatalyst-cli-plugin-react"
+  }
+}
